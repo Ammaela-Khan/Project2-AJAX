@@ -1,7 +1,7 @@
 Daily Weather App
 
 
-Live Link
+Live Link:
 
 
 Features
@@ -13,17 +13,15 @@ Features
 3. Shows a 5-day weather forecast with icons.
 
 4. Uses the OpenWeatherMap API.
-   
 
 
 Architecture and Design
 
-  index.html: focuses on UI layout and structure of the application.
+1. index.html: focuses on UI layout and structure of the application.
 
-  styles.css: Styling and color variables.
+2. styles.css: Styling and color variables.
 
-  app.js: Main brain and logic for fetches API data, updates weather and forecast results.
-
+3. app.js: Main brain and logic for fetches API data, updates weather and forecast results.
 
 
 On Windows
@@ -44,8 +42,8 @@ On MacOS
   3. Right-click index.html-> Open with -> Safari/Chrome
 
 
-
 My Reflection
+
 This project was definetly difficult because we were given the basic structure of the code with the search bar and we had to add the complex 
 features on our own. I learned to fetch and apply API's which was honestly quite interesting all the data being added to the website without
 having to add it manually. So I am happy I was able to style the website a little and add the forecast for 5 days and that is exactly what 
