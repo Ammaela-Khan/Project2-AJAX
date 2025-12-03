@@ -44,12 +44,8 @@ On MacOS
 
 My Reflection
 
-This project was definetly difficult because we were given the basic structure of the code with the search bar and we had to add the complex 
-features on our own. I learned to fetch and apply API's which was honestly quite interesting all the data being added to the website without
-having to add it manually. So I am happy I was able to style the website a little and add the forecast for 5 days and that is exactly what 
-this application does. It gives you the weather for any city you like and not just the weather for the day, but also the forecast for the next 5 days. 
+This project was definitely challenging because we were given only the basic structure with the search bar, and we had to build the more complex features ourselves. I learned how to fetch and apply APIs, which was really interesting because all the data appears on the website without being added manually. I’m happy that I was able to style the site and successfully implement the 5-day forecast.
 
-
-
+This application now shows the weather for any city you search, including both today’s conditions and the upcoming 5-day forecast.
 
 
