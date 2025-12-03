@@ -1,0 +1,56 @@
+<!doctype html>                                         
+<html lang="en">                                        
+  <head>                                               
+    <meta charset="utf-8" />                           
+    <title>Project 2 - AJAX Demo</title>                
+
+    <link rel="stylesheet" href="styles.css" />         
+  </head>                                               
+
+  <body>                                                
+    <main class="wrap">                                
+      <h1>Daily Weather</h1>                 
+
+      <section class="card" aria-label="Search form">  
+        <h2>What is the weather today in...</h2>                                 
+
+        <label>                                         
+          Enter City:                   
+          <input                                        
+            id="query"                                  
+            type="text"                                 
+            placeholder="City" 
+            required                                    
+          />
+        </label>                                       
+
+        <label>                                         
+          Data source                                    
+          <select id="projectType">                    
+            <option value="weather">OpenWeatherMap</option>   
+          </select>                                     
+        </label>                                        
+
+        <button id="searchBtn" type="button">          
+          Search                              
+        </button>                                      
+      </section>                                        
+
+      <p id="status" aria-live="polite"></p>         
+
+      <section class="card" aria-label="Search results">
+        <h2> The weather today is...</h2>                              
+        <div id="results" class="results-grid">        
+        </div>                                          
+      </section>       
+      
+      <section class="card" aria-label="Search results">
+        <h2>Forecast for the next 5 Days</h2>                               
+        <div id="forecast" class="card results-grid"></div>                                     
+      </section>   
+
+    </main>                                              
+
+    <script src="app.js"></script>                    
+  </body>                                               
+</html>                                                 
